@@ -156,7 +156,7 @@ int main() {
 }
 ```
 #### Output
-
+![Screenshot 202024-06-10 20100408](https://github.com/Arsitatw/Praktikum-4/blob/master/praktikum%204/Screenshot%202024-06-10%20100408.png)
 #### Penjelasan
 Program ini meminta pengguna untuk memasukkan sebuah kalimat dan sebuah huruf yang ingin dicari. Algoritma binary search digunakan untuk mencari huruf tersebut setelah kalimat diurutkan secara alfabetis. Fungsi binarySearch mengurutkan kalimat, kemudian melakukan pencarian biner yang membandingkan setiap elemen tengah dengan huruf yang dicari, mengabaikan perbedaan besar kecil huruf. Hasil pencarian dikembalikan sebagai true jika huruf ditemukan, atau false jika tidak ditemukan. Program kemudian menampilkan hasil pencarian kepada pengguna, menyatakan apakah huruf yang dicari ada dalam kalimat atau tidak.
 
@@ -191,7 +191,7 @@ int main() {
 }
 ```
 #### Output
-
+![Screenshot 202024-06-10 20100532](https://github.com/Arsitatw/Praktikum-4/blob/master/praktikum%204/Screenshot%202024-06-10%20100532.png)
 #### Penjelasan 
 Program ini meminta pengguna untuk memasukkan sebuah kalimat dan kemudian menghitung jumlah huruf vokal dalam kalimat tersebut. Fungsi countVowels digunakan untuk menghitung vokal dengan mengubah setiap karakter menjadi huruf kecil dan memeriksa apakah karakter tersebut adalah salah satu dari 'a', 'e', 'i', 'o', atau 'u'. Program kemudian menampilkan jumlah huruf vokal yang ditemukan. Penggunaan tolower memastikan perhitungan tidak terpengaruh oleh perbedaan besar kecil huruf. Hasil akhirnya adalah jumlah total vokal yang ditampilkan kepada pengguna.
 
@@ -218,6 +218,6 @@ int main() {
 }
 ```
 #### Output
-
+![Screenshot 202024-06-10 20100636](https://github.com/Arsitatw/Praktikum-4/blob/master/praktikum%204/Screenshot%202024-06-10%20100636.png)
 #### Penejelasan 
 Program ini dimulai dengan menyertakan pustaka iostream untuk menggunakan fungsi-fungsi input/output standar. Selanjutnya, program menggunakan namespace std untuk menghindari penulisan berulang pada fungsi-fungsi standar dari C++. Di dalam fungsi main(), terdapat inisialisasi array data yang berisi sejumlah bilangan bulat dan sebuah variabel target yang menyimpan nilai yang ingin dicari dalam array tersebut, dalam hal ini angka 4. Selain itu, ada juga variabel count yang akan digunakan untuk menghitung jumlah kemunculan angka target. Selanjutnya, program menggunakan loop for untuk mengiterasi melalui setiap elemen dalam array data. Pada setiap iterasi, program memeriksa apakah nilai pada indeks tersebut sama dengan nilai target. Jika ya, maka variabel count akan bertambah satu. Setelah loop selesai dieksekusi, program mencetak jumlah kemunculan angka target dalam array dengan menggunakan fungsi cout. Akhirnya, program mengembalikan nilai 0 untuk menandakan bahwa program telah berjalan dengan sukses dan kemudian berakhir.
